@@ -15,6 +15,9 @@ public class SpringbootDemoApplication {
 		Alien alien =  contxt.getBean(Alien.class);
 		alien.code();
 
+		Alien alien2 =  contxt.getBean(Alien.class);
+		alien2.code();
+
 
 	}
 
